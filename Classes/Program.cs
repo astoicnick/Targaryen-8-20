@@ -10,8 +10,17 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("YO");
-            Console.ReadLine();
+            
+        }
+    }
+    // Class Declaration
+    // To create a specific person, you create an instance of the class
+    class Person
+    {
+        // Method declaration
+        void SayHello()
+        {
+            Console.WriteLine("Hello");
         }
     }
 }
